@@ -119,10 +119,19 @@ body,html {
 .expEach {
     display: flex;
 }
-.expImage {
-    background-color: wheat;
+.expImageContainer {
+    background-color: white;
     border: 3px solid black;
     margin: 3%;
+    width: 100px;
+    height: 100px;
+
+    
+}
+.expImage {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 .expText {
     color: black;
@@ -161,15 +170,20 @@ footer {
 
 .logos {
     display: flex;
-    flex-direction: row;
-    align-items: center;
-    column-gap: 5%;
-    justify-content: center;
-    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 50%;
+    width: 50px;
+    height: 50px;
+
+    margin-left: 40%;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 .logo {
-    border: solid;
-    border-radius: 10px;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
 }
 .divider {
     width: 60%;
