@@ -3,8 +3,8 @@ import Socials from "./Socials";
 
 function Home() {
   return (
-    <div className="home">
-
+    <div className="home" id="home">
+      
       <div className="homeMain">
 
         <div className="homePictureContainer">

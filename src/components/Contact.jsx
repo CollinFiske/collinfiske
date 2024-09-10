@@ -7,7 +7,7 @@ function Contact() {
   };
 
   return (
-    <div className="contactContainer">
+    <div className="contactContainer" id="contact">
 
       <h1>Contact</h1>
 

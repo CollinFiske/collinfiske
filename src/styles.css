@@ -4,6 +4,8 @@ body,html {
     font-weight: 300;
     font-size: 1rem;
 
+    scroll-behavior: smooth;
+
     --mygrey: #3e3c42;
     --mywhite: white;
     --mypurple: #5e60b0;
@@ -14,6 +16,43 @@ body,html {
     /*color: var(--accent);*/
     background-color: var(--mygrey);
 }
+
+
+/* navbar styles */
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #333;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0;
+    z-index: 1000;
+  }
+  
+  .navbar-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  .navbar-item {
+    margin: 0 15px;
+  }
+  
+  .navbar-item a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+  }
+  
+  .navbar-item a:hover {
+    text-decoration: underline;
+  }
+
 
 
 /* home styles */
