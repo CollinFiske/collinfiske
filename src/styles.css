@@ -1,0 +1,192 @@
+body,html {
+    margin: 0;
+    font-family: Lexend,sans-serif,system-ui;
+    font-weight: 300;
+    font-size: 1rem;
+
+    --mygrey: #3e3c42;
+    --mywhite: white;
+    --mypurple: #5e60b0;
+    --redish: #FF3A26;
+    color: #bbbbbb;
+
+    --accent: #c6cbf4;
+    /*color: var(--accent);*/
+    background-color: var(--mygrey);
+}
+
+
+/* home styles */
+.home {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--greyblueish);
+}
+.homeMain {
+    display: flex;
+    flex-direction: row;
+}
+.homePicture {
+    display: flex;
+    size: 30px;
+    border: 3px solid black;
+    margin: 3%;
+
+    width: 20%;
+    background-color: wheat;
+}
+.homeDescription {
+    background-color: wheat;
+    margin: 3%;
+    border: 3px solid black;
+
+}
+
+
+/* about me styles */
+.aboutMe {
+    background: var(--mypurple);
+}
+.aboutMeTop {
+    margin: 50px 0;
+    padding: 30px 5% 30px;
+}
+.aboutMeBottom {
+    display: flex;
+    flex-wrap: wrap;
+}
+.aboutMeList {
+    background-color: wheat;
+}
+
+
+/* project styles */
+.projects {
+    background-color: var(--mygrey);
+}
+.prjEach {
+    display: flex;
+    justify-content: space-between;
+    margin: 2%;
+    border-radius: 5px;
+    border: solid;
+    background-color: var(--mypurple);
+}
+.prjDescription{
+    flex-direction: column;
+    text-align: left;
+    margin: 2%;
+    width: 60%;
+    padding: 10px;
+
+    border-radius: 5px;
+    border: solid;
+    background-color: var(--mygrey);
+}
+.prjAllTools {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    background-color: var(--mygrey);
+}
+.prjTool {
+    margin: 3px;
+    padding: 5px;
+    background-color: black;
+    text-align: center;
+    color: white;
+
+    border-radius: 5px;
+    border: solid;
+}
+.prjVideo {
+    margin: 2%;
+    width: 25%;
+
+    border-radius: 5px;
+    border: solid;
+    background-color: var(--mygrey);
+}
+
+
+/* experience styles */
+.experience {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-color: var(--mypurple);
+}
+.expEach {
+    display: flex;
+}
+.expImage {
+    background-color: wheat;
+    border: 3px solid black;
+    margin: 3%;
+}
+.expText {
+    color: black;
+    background-color: wheat;
+    border: 3px solid black;
+    margin: 3%;
+}
+.expCourses { /* relevant coursework here - list */
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.expCoursesBox {
+    background-color: wheat;
+    border: 3px solid black;
+    margin: 3%;
+}
+
+
+/* contact styles */
+.contactContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 2%;
+    
+}
+
+
+/* other styles */
+footer {
+    text-align: right;
+    background-color: slategray;
+    color: white;
+}
+
+.logos {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    column-gap: 5%;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.logo {
+    border: solid;
+    border-radius: 10px;
+}
+.divider {
+    width: 60%;
+}
+
+
+
+
+@media (max-width: 600px) {
+    .homeMain {
+        flex-direction: column;
+    }
+    .aboutMeBottom {
+        -moz-column-gap:100px;
+        column-gap: 100px
+    }
+    .project {
+        margin: 10px;
+    }
+}
