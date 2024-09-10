@@ -7,8 +7,8 @@ function Home() {
 
       <div className="homeMain">
 
-        <div className="homePicture">
-          <h3>img here</h3>
+        <div className="homePictureContainer">
+          <img className="homePicture" src="https://static.vecteezy.com/system/resources/previews/007/409/979/original/people-icon-design-avatar-icon-person-icons-people-icons-are-set-in-trendy-flat-style-user-icon-set-vector.jpg" alt="portrait"/>
         </div>
 
         <div className="homeDescription">

@@ -1,16 +1,18 @@
 
 
-function Socials() {
+function Socials({ email = 'cfiske09@gmail.com', subject = '', body = '' }) {
 
     const onLinkedInClick = () => {
-        //
+        window.open('https://www.linkedin.com/in/collinfiske/', '_blank', 'noopener,noreferrer');
     };
     const onGithubClick = () => {
-        //
+        window.open('https://github.com/CollinFiske', '_blank', 'noopener,noreferrer');
     };
     const onEmailClick = () => {
-        //
+        const mailtoLink = `mailto:${email}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+        window.location.href = mailtoLink;
     };
+
 
     return (
       <div className="logos">
