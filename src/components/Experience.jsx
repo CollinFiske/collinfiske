@@ -9,6 +9,7 @@ function Experience() {
       <div>
         <div className="expEach">
           <div className="expImage">
+            <img src="images/exp/harvardlogo.png" alt="harvard cs50 logo"/>
             <h4>img here</h4>
           </div>
 
