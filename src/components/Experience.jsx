@@ -21,7 +21,7 @@ function Experience() {
 
   return (
     <div className="experience" id="experience">
-      <h1>Experience</h1>
+      <h1 style={{ marginLeft: '5%' }}>Experience</h1>
 
       <div className="expBottom">
         <div className="expEach">

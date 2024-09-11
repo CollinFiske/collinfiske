@@ -150,6 +150,7 @@ body,html {
 
 /* experience styles */
 .experience {
+    padding-top: 20px;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -182,12 +183,13 @@ body,html {
     padding: 10px;
 }
 .expBottom{
-    margin-bottom: 50px;
+    margin-bottom: 100px;
 }
 
 
 /* contact styles */
 .contactAll{
+    margin-top: 20px;
     display: grid;
 }
 .contactHoriz{
