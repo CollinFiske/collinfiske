@@ -7,35 +7,43 @@ function Contact() {
   };
 
   return (
-    <div className="contactContainer" id="contact">
 
+    <div className="contactAll" id="contact">
+      <div className="contactVert">
+        <div className="contactHoriz">
 
-      <h1>Contact</h1>
+          <h1>Contact</h1>
 
-      <form onSubmit={handleSubmit}>
+          <form onSubmit={handleSubmit}>
 
-        <span>
-          <h3>Name: </h3>
-          <input type="text" placeholder="Enter your name here: "/>
-        </span>
+            <span>
+              <h3>Name: </h3>
+              <input type="text" placeholder="Enter your name here: "/>
+            </span>
 
-        <span>
-          <h3>Email: </h3>
-          <input type="text" placeholder="Enter your email here: "/>
-        </span>
+            <span>
+              <h3>Email: </h3>
+              <input type="text" placeholder="Enter your email here: "/>
+            </span>
 
-        <span>
-          <h3>Message: </h3>
-          <input type="text" placeholder="Ex) Hi! I'd love to connect on..."/>
-        </span>
+            <span>
+              <h3>Message: </h3>
+              <input type="text" placeholder="Ex) Hi! I'd love to connect on..."/>
+            </span>
 
-        <button type="submit" onSubmit={handleSubmit} className="contactButton">Submit</button>
+            <button type="submit" onSubmit={handleSubmit} className="contactButton">Submit</button>
 
-      </form >
+          </form >
 
-      <Socials />
+        </div>
 
+        <Socials />
+
+      </div>
+      
     </div>
+
+
   );
 }
 

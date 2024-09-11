@@ -187,6 +187,27 @@ body,html {
 
 
 /* contact styles */
+.contactAll{
+    display: flex;
+}
+.contactHoriz{
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.contactVert{
+    flex-direction: column;
+}
+.contactButton {
+    width: 70px;    
+    height: 30px;
+    background-color: var(--lightAccent);
+    color: var(--bgLight);
+}
+
+
+
+
 .contactContainer {
     display: flex;
     flex-direction: row;
@@ -198,12 +219,6 @@ body,html {
 }
 .contactForms {
     flex-direction: column;
-}
-.contactButton {
-    width: 70px;    
-    height: 30px;
-    background-color: var(--lightAccent);
-    color: var(--bgLight);
 }
 
 
