@@ -1,4 +1,4 @@
-
+import Socials from "./Socials";
 
 function Home() {
   return (
@@ -16,6 +16,8 @@ function Home() {
         </div>
 
       </div>
+
+      <Socials />
 
     </div>
   );

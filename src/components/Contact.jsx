@@ -1,4 +1,4 @@
-
+import Socials from "./Socials";
 
 function Contact() {
 
@@ -8,6 +8,7 @@ function Contact() {
 
   return (
     <div className="contactContainer" id="contact">
+
 
       <h1>Contact</h1>
 
@@ -31,6 +32,8 @@ function Contact() {
         <button type="submit" onSubmit={handleSubmit} className="contactButton">Submit</button>
 
       </form >
+
+      <Socials />
 
     </div>
   );

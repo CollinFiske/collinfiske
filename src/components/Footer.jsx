@@ -2,10 +2,10 @@
 
 function Footer() {
     return (
-        
-        <footer>
-            
-            <h4>@2024 Collin Fiske</h4>
+
+        <footer className="footerText">
+
+            <h4><a href="#home">@2024 Collin Fiske</a></h4>
             
         </footer>
         

@@ -23,7 +23,7 @@ function Experience() {
     <div className="experience" id="experience">
       <h1>Experience</h1>
 
-      <div>
+      <div className="expBottom">
         <div className="expEach">
           <div className="expImageContainer">
             <img onClick={onCS50Click} className="expImage" src="https://upload.wikimedia.org/wikipedia/commons/1/11/Seal_of_the_President_of_Harvard_University.png" alt="harvard cs50 logo"/>
