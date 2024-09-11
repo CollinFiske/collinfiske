@@ -77,11 +77,15 @@ body,html {
 .homePicture {
     width: 100%;
     height: 100%;
+    border-radius: 150px;
 }
 .homeDescription {
     background-color: var(--bgLight);
     margin: 3%;
-
+    border-radius: 10px;
+}
+.homeName:hover {
+    color: var(--blueAccent);
 }
 
 
@@ -110,8 +114,7 @@ body,html {
     display: flex;
     justify-content: space-between;
     margin: 2%;
-    border-radius: 5px;
-    border: solid;
+    border-radius: 10px;
     background-color: var(--bgLight);
 }
 .prjDescription{
@@ -120,9 +123,7 @@ body,html {
     margin: 2%;
     width: 60%;
     padding: 10px;
-
-    border-radius: 5px;
-    border: solid;
+    border-radius: 10px;
     background-color: var(--bgDark);
 }
 .prjAllTools {
@@ -134,19 +135,14 @@ body,html {
 .prjTool {
     margin: 3px;
     padding: 5px;
-    background-color: black;
+    background-color: var(--blueAccent);
     text-align: center;
-    color: white;
-
-    border-radius: 5px;
-    border: solid;
+    border-radius: 10px;
 }
 .prjVideo {
     margin: 2%;
     width: 25%;
-
-    border-radius: 5px;
-    border: solid;
+    border-radius: 10px;
     background-color: black;
 }
 
@@ -174,13 +170,14 @@ body,html {
     height: 100%;
     object-fit: cover;
     background-color: white;
+    border-radius: 10px;
 }
 .expText {
     background-color: var(--bgDark);
     margin: 1%;
     margin-right: 8%;
     width: 70%;
-
+    border-radius: 10px;
 }
 .expCourses { /* relevant coursework here - list */
     display: flex;
@@ -244,6 +241,9 @@ footer {
 
 
 @media (max-width: 600px) {
+    .homePicture{
+        margin-left: 200%;
+    }
     .expImageContainer{
         margin-left: 1%;
     }
@@ -259,5 +259,8 @@ footer {
     }
     .project {
         margin: 10px;
+    }
+    .logos{
+        margin-left: 30%;
     }
 }
