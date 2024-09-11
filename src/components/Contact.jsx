@@ -28,7 +28,7 @@ function Contact() {
           <input type="text" placeholder="Ex) Hi! I'd love to connect on..."/>
         </span>
 
-        <button type="submit" onSubmit={handleSubmit}/>contact button here
+        <button type="submit" onSubmit={handleSubmit} className="contactButton">Submit</button>
 
       </form >
 

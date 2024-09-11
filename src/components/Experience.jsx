@@ -1,4 +1,3 @@
-import Socials from "./Socials";
 
 
 function Experience() {
@@ -14,6 +13,9 @@ function Experience() {
   };
   const onACMClick = () => {
     window.open('https://www.scuacm.com/', '_blank', 'noopener,noreferrer');
+  };
+  const onSCUClick = () => {
+    window.open('https://www.scu.edu/engineering/', '_blank', 'noopener,noreferrer');
   };
 
 
@@ -62,25 +64,17 @@ function Experience() {
           </div>
         </div>
 
+        <div className="expEach">
+          <div className="expImageContainer">
+            <img onClick={onSCUClick} className="expImage" src="https://www.scu.edu/media/school-of-engineering/photos/logos/scu-engineering-school-logo-150x179.gif" alt="acm logo"/>
+          </div>
+          <div className="expText">
+            <h3>Santa Clara University School of Enginnering</h3>
+            <p>Relevant Coursework: (list)</p>
+          </div>
+        </div> 
+
       </div>
-
-      <div className="expCourses">
-        <div className="expCoursesBox">
-          <h4>Relevant CourseWork: </h4>
-        </div>
-        <div className="expCoursesBox">
-          <ul>
-            <li>ejroasja</li>
-            <li>ejroasja</li>
-            <li>ejroasja</li>
-          </ul>
-        </div>
-      </div>
-
-      <p>cpy from projects, but move pic from right to left</p>
-
-
-      <Socials />
 
     </div>
   );

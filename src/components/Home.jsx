@@ -1,4 +1,3 @@
-import Socials from "./Socials";
 
 
 function Home() {
@@ -12,13 +11,11 @@ function Home() {
         </div>
 
         <div className="homeDescription">
-          <h1>I'm Collin Fiske</h1>
-          <h4>A _____. Check out my portfolio below or contact me! (both links)</h4>
+          <h1>Collin Fiske</h1>
+          <p>I'm a computer science and engineering major currently studying at Santa Clara University. Feel free to check out my website!</p>
         </div>
 
       </div>
-
-      <Socials />
 
     </div>
   );
