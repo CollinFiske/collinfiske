@@ -30,7 +30,27 @@ function Experience() {
           </div>
           <div className="expText">
             <h3>Harvard University's CS50 Course</h3>
-            <p>ehroesahroaeroa</p>
+            <p>Completed CS50, Harvard's course for Computer Science</p>
+          </div>
+        </div>
+
+        <div className="expEach">
+          <div className="expImageContainer">
+            <img onClick={onBroncosecClick} className="expImage" src="https://broncosec.com/static/media/BroncoSec_Logo_Red.017c7f92.png" alt="broncosec logo"/>
+          </div>
+          <div className="expText">
+            <h3>SCU Broncosec Club - Member</h3>
+            <p>Attend meetings and lectures on all topics cybersecurity. Participate in cybersecurity focused hackathons and speaker events with experts from the world of cybersecurity</p>
+          </div>
+        </div>
+
+        <div className="expEach">
+          <div className="expImageContainer">
+            <img onClick={onACMClick} className="expImage" src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Association_for_Computing_Machinery_%28ACM%29_logo.svg/1200px-Association_for_Computing_Machinery_%28ACM%29_logo.svg.png" alt="acm logo"/>
+          </div>
+          <div className="expText">
+            <h3>SCU ACM Club - Member</h3>
+            <p>Attend sponsored hackathons, lectures on new and exciting topics in the world of cs, and share and collaborate on projects with each other. Part of a driven community of like-minded computer scientists</p>
           </div>
         </div>
 
@@ -40,27 +60,7 @@ function Experience() {
           </div>
           <div className="expText">
             <h3>Computer Science Teaching Assistant</h3>
-            <p>ehroesahroaeroa</p>
-          </div>
-        </div>
-
-        <div className="expEach">
-          <div className="expImageContainer">
-            <img onClick={onBroncosecClick} className="expImage" src="https://broncosec.com/static/media/BroncoSec_Logo_Red.017c7f92.png" alt="broncosec logo"/>
-          </div>
-          <div className="expText">
-            <h3>SCU Broncosec - member</h3>
-            <p>ehroesahroaeroa</p>
-          </div>
-        </div>
-
-        <div className="expEach">
-          <div className="expImageContainer">
-            <img onClick={onACMClick} className="expImage" src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Association_for_Computing_Machinery_%28ACM%29_logo.svg/1200px-Association_for_Computing_Machinery_%28ACM%29_logo.svg.png" alt="acm logo"/>
-          </div>
-          <div className="expText">
-            <h3>SCU ACM - member</h3>
-            <p>ehroesahroaeroa</p>
+            <p>Taught students about coding and computer science in a variety of languages, along with several computer applications. Covered overarching topics in cs, including: software and web development, web design, and basics on HTTP protocols and how the internet works.</p>
           </div>
         </div>
 
@@ -69,8 +69,8 @@ function Experience() {
             <img onClick={onSCUClick} className="expImage" src="https://www.scu.edu/media/school-of-engineering/photos/logos/scu-engineering-school-logo-150x179.gif" alt="acm logo"/>
           </div>
           <div className="expText">
-            <h3>Santa Clara University School of Enginnering</h3>
-            <p>Relevant Coursework: (list)</p>
+            <h3>Santa Clara University - Engineering School</h3>
+            <p>Relevant Coursework: Data Structures & Algorithms, Embedded Systems, Logic Design, Discrete Math, Object-Oriented Programming</p>
           </div>
         </div> 
 

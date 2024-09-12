@@ -1,10 +1,19 @@
 import Socials from "./Socials";
+import React, { useState } from 'react';
 
 function Contact() {
 
-  const handleSubmit = () => {
-    //
-  };
+  const [var1, setVar1] = useState('');
+  const [var2, setVar2] = useState('');
+  const [var3, setVar3] = useState('');
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    const body = "" + var3 + " \nFrom: " + var2;
+    const subject = "Connect with " + var1;
+    const mailtoLink = `mailto:${'cfiske09@gmail.com'}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+      window.location.href = mailtoLink;
+    };
 
   return (
 
@@ -18,20 +27,20 @@ function Contact() {
 
             <span>
               <h3>Name: </h3>
-              <input type="text" placeholder="Enter your name here: "/>
+              <input value={var1} onChange={(e) => setVar1(e.target.value)} type="text" placeholder="Enter name here: "/>
             </span>
 
             <span>
               <h3>Email: </h3>
-              <input type="text" placeholder="Enter your email here: "/>
+              <input value={var2} type="text" onChange={(e) => setVar2(e.target.value)} placeholder="Enter email here: "/>
             </span>
 
             <span>
               <h3>Message: </h3>
-              <input type="text" placeholder="Ex) Hi! I'd love to connect on..."/>
+              <input value={var3} type="text" onChange={(e) => setVar3(e.target.value)} placeholder="Ex) Hi! Let's connect..."/>
             </span>
 
-            <button type="submit" onSubmit={handleSubmit} className="contactButton">Submit</button>
+            <button type="submit" className="contactButton">Submit</button>
 
           </form >
 
