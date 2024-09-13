@@ -31,7 +31,7 @@ function Projects() {
       <div className="prjEach">
         <div className="prjDescription">
           <h2>Flitter</h2>
-          <p>A full-stack functional twitter (X) clone. reating users, posting, following others and viewing their posts, editing profile, login and password authentication, and all other twitter capabilites. All backs up to a Mongodb database using Prisma.</p>
+          <p>A full-stack functional twitter (X) clone. Allows: creating users, posting, following others and viewing their posts, editing profile, login and password authentication, and all other twitter capabilites. All backs up to a Mongodb database using Prisma.</p>
 
           <div className="prjAllTools">
             <div className="prjTool">Mongodb</div>
@@ -78,7 +78,8 @@ function Projects() {
 
           <div className="prjAllTools">
             <div className="prjTool">C</div>
-            <div className="prjTool">Testing</div>
+            <div className="prjTool">Linux</div>
+            <div className="prjTool">gdb</div>
             <div className="prjTool">Data Structures</div>
           </div>
         </div>
