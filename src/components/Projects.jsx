@@ -73,8 +73,8 @@ function Projects() {
 
       <div className="prjEach">
         <div className="prjDescription">
-          <h2>something from class using C</h2>
-          <p>oerhoihreahro</p>
+          <h2>Quicksort and Set ADT Text Reader</h2>
+          <p>Reads in files of any type into a created Set abstract data type and ____.</p>
 
           <div className="prjAllTools">
             <div className="prjTool">C</div>
@@ -85,7 +85,7 @@ function Projects() {
         </div>
 
         <div className="prjVideo">
-          <h2>demo vid here</h2>
+          <iframe src="https://www.youtube.com/embed?v=uG1N3hLW9XM" title="qsort and set ADT C demo vid"></iframe>
         </div>
       </div>
       
