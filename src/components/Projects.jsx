@@ -36,10 +36,10 @@ function Projects() {
           <div className="prjAllTools">
             <div className="prjTool">Mongodb</div>
             <div className="prjTool">React.js</div>
-            <div className="prjTool">Prisma</div>
             <div className="prjTool">Tailwind CSS</div>
-            <div className="prjTool">Javascript</div>
-            <div className="prjTool">HTML5</div>
+            <div className="prjTool">Next.js</div>
+            <div className="prjTool">Prisma</div>
+            <div className="prjTool">Next Auth</div>
           </div>
         </div>
 
@@ -79,7 +79,7 @@ function Projects() {
           <div className="prjAllTools">
             <div className="prjTool">C</div>
             <div className="prjTool">Linux</div>
-            <div className="prjTool">gdb</div>
+            <div className="prjTool">GDB</div>
             <div className="prjTool">Data Structures</div>
           </div>
         </div>

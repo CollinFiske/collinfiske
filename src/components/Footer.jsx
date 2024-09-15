@@ -5,7 +5,7 @@ function Footer() {
 
         <footer className="footerText">
 
-            <h4><a href="#home">@2024 Collin Fiske</a></h4>
+            <h4><a href="#home">©2024 Collin Fiske</a></h4>
             
         </footer>
         
