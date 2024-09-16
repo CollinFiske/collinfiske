@@ -12,7 +12,8 @@ function Home() {
 
         <div className="homeDescription">
           <h1 className="homeName">Collin Fiske</h1>
-          <p>I'm a computer science and engineering major currently studying at Santa Clara University. Feel free to check out my website!</p>
+          <p>I'm a computer science and engineering major studying 
+            at Santa Clara University. Check out my website!</p>
         </div>
 
       </div>

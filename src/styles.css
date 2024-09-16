@@ -85,13 +85,16 @@ body, html {
     border-radius: 150px;
 }
 .homeDescription {
-    background-color: var(--bgLight);
-    margin: 3%;
+    /*background-color: var(--bgLight);*/
+    margin: 5%;
     border-radius: 10px;
-    padding: 30px;
+    padding: 25px;
+    padding-bottom: 0px;
 }
 .homeName{
-    font-size: 60px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 80px;
 }
 .homeName:hover {
     color: var(--blueAccent);
@@ -106,8 +109,21 @@ body, html {
 }
 .aboutMeHoriz {
     display: flex;
-    column-gap: 20%;
+    column-gap: 17%;
     flex-wrap: wrap
+}
+.resumeButton {
+    text-align: center;
+    font-size: 25px;
+    font-family: Lexend,sans-serif,system-ui;
+    border-radius: 10px;
+    border-color: white;
+    background-color: var(--blueAccent);
+    color: white;
+    width: 150px;    
+    height: 50px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 
@@ -215,7 +231,6 @@ body, html {
     margin-top: 20px;
     text-align: center;
     border-radius: 10px;
-    border: solid;
     border-color: white;
     background-color: var(--blueAccent);
     color: white;
