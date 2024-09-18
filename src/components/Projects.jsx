@@ -15,6 +15,7 @@ function Projects() {
           <div className="prjAllTools">
             <div className="prjTool">React.js</div>
             <div className="prjTool">SkyScanner API</div>
+            <div className="prjTool">Next.js</div>
             <div className="prjTool">Javascript</div>
             <div className="prjTool">CSS</div>
             <div className="prjTool">HTML5</div>
@@ -40,27 +41,6 @@ function Projects() {
             <div className="prjTool">Next.js</div>
             <div className="prjTool">Prisma</div>
             <div className="prjTool">Next Auth</div>
-          </div>
-        </div>
-
-        <div className="prjVideo">
-        <iframe src="" title="tbd"></iframe>
-        </div>
-      </div>
-      
-      <hr className="divider"></hr>
-
-      <div className="prjEach">
-        <div className="prjDescription">
-          <h2>prj3</h2>
-          <p>oerhoihreahro</p>
-
-          <div className="prjAllTools">
-            <div className="prjTool">Mongodb</div>
-            <div className="prjTool">React.js</div>
-            <div className="prjTool">Prisma</div>
-            <div className="prjTool">Tailwind CSS</div>
-            <div className="prjTool">Next JS or is it node?</div>
           </div>
         </div>
 
