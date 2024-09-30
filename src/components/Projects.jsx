@@ -54,7 +54,7 @@ function Projects() {
       <div className="prjEach">
         <div className="prjDescription">
           <h2>Quicksort and Set ADT Text Reader</h2>
-          <p>Reads in files of any type into a created Set abstract data type and ____.</p>
+          <p>Reads in files of any type into a created Set abstract data type and enacts quicksort on to them.</p>
 
           <div className="prjAllTools">
             <div className="prjTool">C</div>
