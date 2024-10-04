@@ -38,7 +38,7 @@ function AboutMe() {
                 </div>
 
                 <div>
-                    <p><b>Tools/Frameworks: </b></p>
+                    <p><b>Tools and Frameworks: </b></p>
                     <ul>
                         <li >React.js</li>
                         <li >Linux</li>

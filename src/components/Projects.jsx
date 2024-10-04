@@ -23,7 +23,7 @@ function Projects() {
         </div>
 
         <div className="prjVideo">
-          <iframe src="" title="amtrak vs plane demo vid"></iframe>
+          <iframe src="https://www.youtube.com/embed/yqWX86uT5jM" title="amtrak vs plane demo vid"></iframe>
         </div>
       </div>
 
@@ -45,7 +45,7 @@ function Projects() {
         </div>
 
         <div className="prjVideo">
-        <iframe src="" title="tbd"></iframe>
+          <iframe src="" title="flitter demo vid"></iframe>
         </div>
       </div>
       

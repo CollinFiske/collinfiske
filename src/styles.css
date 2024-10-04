@@ -82,7 +82,7 @@ body, html {
 .homePicture {
     width: 100%;
     height: 100%;
-    border-radius: 150px;
+    border-radius: 1500px;
 }
 .homeDescription {
     /*background-color: var(--bgLight);*/
@@ -223,6 +223,7 @@ body, html {
     margin-left: 4%;
     margin-right: 45%;
     margin-bottom: 20px;
+    max-width: 600px;
 }
 .contactVert{
     display: grid;
@@ -289,6 +290,20 @@ footer {
 }
 
 
+@media (max-width: 800px) {
+    .contactHoriz{
+        margin-right: 4%;
+    }
+    .prjEach {
+        display: grid;
+    }
+    .prjDescription{
+        width: 90%;
+    }
+    .prjVideo{
+        margin-left: 25%;
+    }
+}
 @media (max-width: 600px) {
     .homePicture{
         margin-left: 200%;
@@ -311,6 +326,13 @@ footer {
     .logos{
         margin-left: 30%;
     }
+    .prjVideo{
+        margin-left: 10%;
+    }
+    .aboutMeHoriz {
+        display: grid;
+    }
+    
 }
 
 
