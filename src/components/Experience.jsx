@@ -14,6 +14,9 @@ function Experience() {
   const onACMClick = () => {
     window.open('https://www.scuacm.com/', '_blank', 'noopener,noreferrer');
   };
+  const onAICollabClick = () => {
+    window.open('https://www.scuaiclub.com/', '_blank', 'noopener,noreferrer');
+  };
   const onSCUClick = () => {
     window.open('https://www.scu.edu/engineering/', '_blank', 'noopener,noreferrer');
   };
@@ -36,11 +39,11 @@ function Experience() {
 
         <div className="expEach">
           <div className="expImageContainer">
-            <img onClick={onBroncosecClick} className="expImage" src="https://broncosec.com/static/media/BroncoSec_Logo_Red.017c7f92.png" alt="broncosec logo"/>
+            <img onClick={onLHSClick} className="expImage" src="https://media.licdn.com/dms/image/v2/D4E0BAQFv1I4dWQkfog/company-logo_100_100/company-logo_100_100/0/1684429023902?e=1733961600&v=beta&t=PiDaBfXdk3OyxrYoXlLH5mYFVF8MFTFqBr5auEIQEQ4" alt="lhs logo"/>
           </div>
           <div className="expText">
-            <h3>SCU Broncosec Club - Member</h3>
-            <p>Attend meetings and lectures on all topics cybersecurity. Participate in cybersecurity focused hackathons and speaker events with experts from the world of cybersecurity</p>
+            <h3>Computer Science Teaching Assistant</h3>
+            <p>Taught students about coding and computer science in a variety of languages, along with several computer applications. Covered overarching topics in cs, including: software and web development, web design, and basics on HTTP protocols and how the internet works.</p>
           </div>
         </div>
 
@@ -56,11 +59,21 @@ function Experience() {
 
         <div className="expEach">
           <div className="expImageContainer">
-            <img onClick={onLHSClick} className="expImage" src="https://media.licdn.com/dms/image/v2/D4E0BAQFv1I4dWQkfog/company-logo_100_100/company-logo_100_100/0/1684429023902?e=1733961600&v=beta&t=PiDaBfXdk3OyxrYoXlLH5mYFVF8MFTFqBr5auEIQEQ4" alt="lhs logo"/>
+            <img onClick={onBroncosecClick} className="expImage" src="https://broncosec.com/static/media/BroncoSec_Logo_Red.017c7f92.png" alt="broncosec logo"/>
           </div>
           <div className="expText">
-            <h3>Computer Science Teaching Assistant</h3>
-            <p>Taught students about coding and computer science in a variety of languages, along with several computer applications. Covered overarching topics in cs, including: software and web development, web design, and basics on HTTP protocols and how the internet works.</p>
+            <h3>SCU Broncosec Club - Member</h3>
+            <p>Attend meetings and lectures on all topics cybersecurity. Participate in cybersecurity focused hackathons and speaker events with experts from the world of cybersecurity</p>
+          </div>
+        </div>
+
+        <div className="expEach">
+          <div className="expImageContainer">
+            <img onClick={onAICollabClick} className="expImage" src="https://images.squarespace-cdn.com/content/v1/66ce24384cf10a3b151c26e3/719454b7-b084-471f-82d8-79caa2c73706/AI+Logo+Transparent+Black+%281%29.png?format=500w" alt="ai collab logo"/>
+          </div>
+          <div className="expText">
+            <h3>SCU AI Collaborate Club - Member</h3>
+            <p>Collaborate with fellow enthusiasts on projects and attend lectures on new developments in the world of artificial intelligence, neural networks, and machine learning by experts.</p>
           </div>
         </div>
 

@@ -4,6 +4,7 @@ function AboutMe() {
 
     const goToResume = () => {
         //
+        window.open('https://drive.google.com/file/d/1Bq1PQy67SRcbcVuC9MzZxnT8WRasckje/view?usp=sharing', '_blank', 'noopener,noreferrer');
     };
 
     return (
