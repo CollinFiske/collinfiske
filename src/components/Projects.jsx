@@ -23,7 +23,7 @@ function Projects() {
         </div>
 
         <div className="prjVideo">
-          <iframe src="https://www.youtube.com/embed/yqWX86uT5jM" title="amtrak vs plane demo vid" allowfullscreen></iframe>
+          <iframe src="" title="amtrak vs plane demo vid" allowfullscreen="allowfullscreen" mozallowfullscreen="mozallowfullscreen" msallowfullscreen="msallowfullscreen" oallowfullscreen="oallowfullscreen" webkitallowfullscreen="webkitallowfullscreen"></iframe>
         </div>
       </div>
 
@@ -45,7 +45,7 @@ function Projects() {
         </div>
 
         <div className="prjVideo">
-          <iframe src="" title="flitter demo vid" allowfullscreen></iframe>
+          <iframe src="" title="flitter demo vid" allowfullscreen="allowfullscreen" mozallowfullscreen="mozallowfullscreen" msallowfullscreen="msallowfullscreen" oallowfullscreen="oallowfullscreen" webkitallowfullscreen="webkitallowfullscreen"></iframe>
         </div>
       </div>
       
@@ -65,7 +65,7 @@ function Projects() {
         </div>
 
         <div className="prjVideo">
-          <iframe src="https://www.youtube.com/embed/uG1N3hLW9XM" title="qsort and set ADT C demo vid" allowfullscreen></iframe>
+          <iframe src="https://www.youtube.com/embed/uG1N3hLW9XM" title="qsort and set ADT C demo vid" allowfullscreen="allowfullscreen" mozallowfullscreen="mozallowfullscreen" msallowfullscreen="msallowfullscreen" oallowfullscreen="oallowfullscreen" webkitallowfullscreen="webkitallowfullscreen"></iframe>
         </div>
       </div>
       

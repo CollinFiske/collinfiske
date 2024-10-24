@@ -1,4 +1,5 @@
 import Socials from "./Socials";
+import myImage from './homeimgBig.jpg';
 
 function Home() {
   return (
@@ -7,7 +8,7 @@ function Home() {
       <div className="homeMain">
 
         <div className="homePictureContainer">
-          <img className="homePicture" src="https://avatars.githubusercontent.com/u/132860072?v=4" alt="portrait"/>
+          <img className="homePicture" src={ myImage } alt="portrait"/>
         </div>
 
         <div className="homeDescription">
