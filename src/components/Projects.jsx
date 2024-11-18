@@ -9,8 +9,30 @@ function Projects() {
 
       <div className="prjEach">
         <div className="prjDescription">
+          <h2>AskRON</h2>
+          <p>AskRON - the Reliable Option for Navigation, a chrome extension for AI assisted browsing. Powered by AWS Bedrock's Claude Sonnet, easy to access via Google's web extension, and with a Flask based backend. Project for AWS x INRIX hackathon fall '24.</p>
+
+          <div className="prjAllTools">
+            <div className="prjTool">AWS Bedrock</div>
+            <div className="prjTool">Chrome Extension</div>
+            <div className="prjTool">AI</div>
+            <div className="prjTool">Flask</div>
+            <div className="prjTool">Python</div>
+            <div className="prjTool">Javascript</div>
+          </div>
+        </div>
+
+        <div className="prjVideo">
+          <iframe src="https://www.youtube.com/embed/3cftxUejehY" title="AskRON - AWS x INRIX Hackathon Project 2024" allowfullscreen="allowfullscreen" mozallowfullscreen="mozallowfullscreen" msallowfullscreen="msallowfullscreen" oallowfullscreen="oallowfullscreen" webkitallowfullscreen="webkitallowfullscreen"></iframe>
+        </div>
+      </div>
+
+      <hr className="divider"></hr>
+      
+      <div className="prjEach">
+        <div className="prjDescription">
           <h2>Amtrak vs Plane trip calculator</h2>
-          <p>Parses plane tickets from all major airlines and Amtrak tickets using SkyScanner API and an Amtrak ________. Compare prices, departure and arrival times, stations and airports, all to plan your trip accordingly. Currently expanding access to all regions of the U.S.!</p>
+          <p>Parses plane tickets from all major airlines using the SkyScanner API and Amtrak tickets with an algorithm. Compare prices, departure and arrival times, stations and airports, all to plan your trip accordingly. Currently expanding access to all regions of the U.S.!</p>
 
           <div className="prjAllTools">
             <div className="prjTool">React.js</div>

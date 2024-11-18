@@ -42,6 +42,7 @@ function AboutMe() {
                     <p><b>Tools and Frameworks: </b></p>
                     <ul>
                         <li >React.js</li>
+                        <li >AWS</li>
                         <li >Linux</li>
                         <li >Flask</li>
                         <li >Git/Github</li>
@@ -50,6 +51,7 @@ function AboutMe() {
                         <li >Arduino</li>
                         <li >SQLite3</li>
                         <li >Tailwind CSS</li>
+                        <li >Chrome Extensions</li>
                     </ul>
                 </div>
             </div>
